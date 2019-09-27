@@ -14,7 +14,7 @@ const BackEnd = () => (
           />
           <ul className='Back_End_ul'>
             <li>Express</li>
-            <li>Pasport</li>
+            <li>Passport</li>
             <li>Bcryptjs</li>
             <li>jsonwebtoken</li>
             <li>mongoose</li>
