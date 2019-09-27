@@ -134,7 +134,7 @@ border-bottom: 1rem solid #2C3E50;
   .Banner_Ul {
     text-align: center;
   }
-  .Banner_Ul > li > img {
+  .Banner_Ul > li > a> img {
     width: 45px!important;
   }
 }
