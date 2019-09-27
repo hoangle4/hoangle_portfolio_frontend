@@ -16,19 +16,46 @@ const Banner = () => {
             Hoang Le
             <span>
               <br />
-              <small>Full Stack Developer</small>
+              <small style={{ color: 'rgba(243, 156, 18)' }}>
+                Full Stack Developer
+              </small>
             </span>
           </h5>
-
-          <Link to='/resume' className='btn btn-warning'>
-            <i className='far fa-id-card'></i> Resume
-          </Link>
-          <Link to='/resume' className='btn btn-warning'>
-            <i className='far fa-id-card'></i> Resume
-          </Link>
-          <Link to='/resume' className='btn btn-warning'>
-            <i className='far fa-id-card'></i> Resume
-          </Link>
+          <ul className='Banner_Ul p-0'>
+            <li ata-toggle='tooltip' data-placement='top' title='View Github'>
+              <a href='https://github.com/hoangle4' target='_blank'>
+                <img
+                  style={{ width: '25px', cursor: 'pointer' }}
+                  src='./svg/github.svg'
+                  type='image/svg+xml'
+                  className='mr-2'
+                />
+              </a>
+            </li>
+            <li ata-toggle='tooltip' data-placement='top' title='View LinkedIn'>
+              <a
+                href='https://www.linkedin.com/in/hoang-le-20b79a177/'
+                target='_blank'
+              >
+                <img
+                  style={{ width: '25px', cursor: 'pointer' }}
+                  src='./svg/linkedIn.svg'
+                  type='image/svg+xml'
+                  className='mr-2'
+                />
+              </a>
+            </li>
+            <li data-toggle='tooltip' data-placement='top' title='View Resume'>
+              <Link to='/resume'>
+                <img
+                  style={{ width: '25px', cursor: 'pointer' }}
+                  src='./svg/resume.svg'
+                  type='image/svg+xml'
+                  className='mr-2'
+                />
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
