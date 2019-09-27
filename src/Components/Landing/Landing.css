@@ -86,6 +86,14 @@ border-bottom: 1rem solid #2C3E50;
   border-top:1px solid #f2f2f2;
   padding-top: 2rem;
 }
+.Banner_Ul {
+  list-style-type: none;
+  text-align: right;
+}
+.Banner_Ul > li {
+  display: inline;
+  cursor: pointer;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -122,5 +130,11 @@ border-bottom: 1rem solid #2C3E50;
   }
   .border-dashed {
     border: none;
+  }
+  .Banner_Ul {
+    text-align: center;
+  }
+  .Banner_Ul > li > a> img {
+    width: 45px!important;
   }
 }
