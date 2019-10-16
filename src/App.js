@@ -5,19 +5,27 @@ import { Provider } from './context';
 import SignUp from './Components/Signup';
 import Login from './Components/Login';
 import Landing from './Components/Landing';
+import Nav from './Components/Landing/Nav';
+import Resume from './Components/Resume';
+
 const App = () => {
   return (
     <Provider>
       <Router>
-        <Switch>
-          <Route exact path='/' component={Landing} />
-          <Route exact path='/resume' component={SignUp} />
-          {/* <Route exact path="/dashboard" component={Dashboard} />
+        <div className='Landing_Body bg-primary'>
+          <div className='container border-dashed px-0'>
+            <Nav />
+            <Switch>
+              <Route exact path='/' component={Landing} />
+              <Route exact path='/resume' component={Resume} />
+              {/* <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/myaccount" component={MyAccount} />
             <Route exact path="/userprofile/:id" component={Profile} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/test" component={Test} /> */}
-        </Switch>
+            </Switch>
+          </div>
+        </div>
       </Router>
     </Provider>
   );

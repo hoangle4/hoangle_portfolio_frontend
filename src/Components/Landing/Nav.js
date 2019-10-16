@@ -1,17 +1,17 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Nav = () => (
   <nav
     style={{ background: 'rgba(149, 165, 166,.5)' }}
     className='navbar navbar-expand-lg navbar-dark nav-background '
   >
-    <a className='navbar-brand' href='#!'>
+    <Link className='navbar-brand' to='#!'>
       <img
         style={{ height: '100px' }}
         src='./images/logo_light.png'
         alt='hoang le freelance web developer portland, oregon'
       />
-    </a>
+    </Link>
     <button
       className='navbar-toggler'
       type='button'
@@ -30,24 +30,24 @@ const Nav = () => (
     >
       <ul className='navbar-nav '>
         <li className='nav-item active'>
-          <a className='nav-link' href='#!'>
+          <Link className='nav-link' to='/'>
             Home <span className='sr-only'>(current)</span>
-          </a>
+          </Link>
         </li>
         <li className='nav-item'>
-          <a className='nav-link' href='#!'>
+          <Link className='nav-link' to='about-me'>
             About Me
-          </a>
+          </Link>
         </li>
         <li className='nav-item'>
-          <a className='nav-link' href='#!'>
+          <Link className='nav-link' to='/resume'>
             Resume
-          </a>
+          </Link>
         </li>
         <li className='nav-item'>
-          <a className='nav-link' href='#!'>
+          <Link className='nav-link' to='project'>
             Projects
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
