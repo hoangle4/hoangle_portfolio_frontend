@@ -39,7 +39,7 @@ const Resume = () => {
                 href='./files/Hoang_le_updated_oct-2019.pdf'
                 download
               >
-                Downlaod as .PDF
+                Download as .PDF
               </a>
               <a
                 class='dropdown-item'
