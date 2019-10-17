@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Resume = props => {
+const Resume = () => {
   return (
     <div className='row'>
-      <div className='col-12 text-center '>
+      <div className='col-12 text-center'>
         <embed
-          style={{ width: '100%' }}
+          style={{ width: '95%' }}
           type='image/svg+xml'
-          src='./svg/reumse-1.svg'
+          src='./svg/reumse-2.svg'
         />
       </div>
     </div>
