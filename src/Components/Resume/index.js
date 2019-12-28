@@ -8,10 +8,10 @@ const Resume = () => {
         <embed
           style={{ width: '95%' }}
           type='image/svg+xml'
-          src='./svg/reumse-2.svg'
+          src='./svg/reumse-1.svg'
         />
       </div>
-      <div className='col-12 text-center'>
+      <div className='col-12 text-center mt-5'>
         <div
           class='btn-group'
           role='group'
@@ -39,7 +39,7 @@ const Resume = () => {
                 href='./files/Hoang_le_updated_oct-2019.pdf'
                 download
               >
-                Downlaod as .PDF
+                Download as .PDF
               </a>
               <a
                 class='dropdown-item'
