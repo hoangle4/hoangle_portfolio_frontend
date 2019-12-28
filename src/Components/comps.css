@@ -1,0 +1,13 @@
+.sticky-sidebar {
+  position: sticky;
+  top: 5%;
+  box-shadow: 0px 0px 10px 0px #bebebe
+}
+
+.bottom-buttons {
+  box-shadow: 0px 0px 10px 0px #bebebe
+}
+
+.windows-card {
+  box-shadow: 0px 0px 10px 0px #bebebe
+}
