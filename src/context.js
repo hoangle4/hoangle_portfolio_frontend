@@ -10,9 +10,6 @@ export class Provider extends Component {
     dispatch: action => this.setState(state => reducer(action, state))
   };
 
-  componentDidMount = () => {
-    getUser(this.state.dispatch, this.state.token);
-  };
 
   render() {
     return (
