@@ -31,13 +31,13 @@ const CalculatorItem = ({name, purpose, width, height, standard, premium}) => {
             <div className="input-group-prepend">
               	<span style={{background:'white'}} className="input-group-text" id="basic1"><a  href="#" className="card-link">Standard</a></span>
             </div>
-            <input value={`$${standard}.00`} style={{background:'white'}} className="form-control" id="height" aria-describedby="basic1" disabled/>
+            <input value={`$${standard}.00`} style={{background:'white'}} className="form-control"  aria-describedby="basic1" disabled/>
           </div>
           <div className='input-group'  style={{width:'30%'}}>
             <div className="input-group-prepend">
                 <span style={{background:'white'}} className="input-group-text" id="basic2"><a href="#" className="card-link">Premium</a></span>
             </div>
-            <input value={`$${premium}.00`} style={{background:'white'}} className="form-control" id="height" aria-describedby="basic2" disabled/>
+            <input value={`$${premium}.00`} style={{background:'white'}} className="form-control"  aria-describedby="basic2" disabled/>
           </div>
 				  </div>
 				</div>
