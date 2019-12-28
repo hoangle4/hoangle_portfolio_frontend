@@ -52,7 +52,7 @@ const Calculator = () => {
 
                 <div className='col-md-6 text-dark'>
                   <div className="card-body">
-                    <a href="#" style={{background:'#3498DB', color:'white', fontSize:'1.6rem'}} className="btn mb-3"><i className="far fa-plus-square"></i></a>
+                    <a href="#" style={{background:'#3498DB', color:'white', fontSize:'1.6rem'}} className="btn mb-3"><i class="far fa-share-square"></i></a>
                     <h5 className="card-title">Save Estimate</h5>
                   </div>
                 </div>
