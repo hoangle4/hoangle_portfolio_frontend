@@ -7,7 +7,7 @@ import Login from './Components/Login';
 import Landing from './Components/Landing';
 import Nav from './Components/Landing/Nav';
 import Resume from './Components/Resume';
-
+import Calculator from './Components/Calculator';
 const App = () => {
   return (
     <Provider>
@@ -18,6 +18,7 @@ const App = () => {
             <Switch>
               <Route exact path='/' component={Landing} />
               <Route exact path='/resume' component={Resume} />
+			  <Route exact path='/calculator' component={Calculator} />
               {/* <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/myaccount" component={MyAccount} />
             <Route exact path="/userprofile/:id" component={Profile} />
