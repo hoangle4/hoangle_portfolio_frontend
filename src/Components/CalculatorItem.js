@@ -10,7 +10,7 @@ const CalculatorItem = ({name, purpose, width, height, standard, premium}) => {
 						 <div className="input-group-prepend">
 							<span className="input-group-text" id="basic-addon1">Size</span>
 						 </div>
-						<select value={width} className="form-control" id="width" aria-describedby="basic-addon1">
+						<select value={width} className="form-control"  aria-describedby="basic-addon1">
 							<option selected disabled>Choose width</option>
 							<option>12</option>
 							<option>24</option>
@@ -18,7 +18,7 @@ const CalculatorItem = ({name, purpose, width, height, standard, premium}) => {
 							<option>48</option>
 							<option>60</option>
 						</select>
-						<select value={height} className="form-control" id="height" aria-describedby="basic-addon1">
+						<select value={height} className="form-control"  aria-describedby="basic-addon1">
 							<option selected disabled>Choose height</option>
 							  <option>12</option>
 							  <option>24</option>

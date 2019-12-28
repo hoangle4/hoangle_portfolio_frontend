@@ -8,7 +8,7 @@ const Nav = () => (
     <Link className='navbar-brand' to='#!'>
       <img
         style={{ height: '100px' }}
-        src='./images/logo_light.png'
+        src='https://firebasestorage.googleapis.com/v0/b/my-gift-hub-1556864349041.appspot.com/o/logo_light.png?alt=media&token=59d1e9c9-4310-4750-b9e8-0674807839f2'
         alt='hoang le freelance web developer portland, oregon'
       />
     </Link>
