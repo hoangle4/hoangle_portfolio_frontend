@@ -17,9 +17,9 @@ const App = () => {
             <Nav />
             <Switch>
               <Route exact path='/' component={Landing} />
-              <Route exact path='/resume' component={Resume} />
-			        <Route exact path='/calculator' component={Calculator} />
-              {/* <Route exact path="/dashboard" component={Dashboard} />
+              {/*<Route exact path='/resume' component={Resume} />
+		<Route exact path='/calculator' component={Calculator} />
+            <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/myaccount" component={MyAccount} />
             <Route exact path="/userprofile/:id" component={Profile} />
             <Route exact path="/login" component={Login} />
