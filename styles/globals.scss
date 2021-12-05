@@ -1,0 +1,241 @@
+@import './mixins.scss';
+$primary_dark_grey: #2c3e50;
+$primary_light_grey: rgba(149, 165, 166,.5);
+$primary_white: #FFFFFF;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: $primary_dark_grey;
+  h5  {
+    font-weight: bold
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  // variations
+  .bg-dark-grey {
+    background-color: $primary_dark_grey;
+    .navbar-brand {
+      @include recolor($primary_white);
+    }
+    .navbar-toggler{
+      color: $primary_white;
+      border-color: $primary_white;
+      .navbar-toggler-icon {
+        @include recolor($primary_white);
+      }
+    }
+  }
+
+  .offcanvas {
+    &.show {
+      background-color: $primary_dark_grey;
+      .offcanvas-header {
+        background-color: $primary_light_grey;
+        .offcanvas-title {
+          color: $primary_white;
+        }
+        .btn-close {
+          @include recolor($primary_white);
+        }
+      }
+      .offcanvas-body {
+        .nav-link {
+          color: $primary_white;
+          border-bottom: 1px solid darken($primary_white, 50);
+        }
+      }
+    }
+  }
+
+  // end variations
+  .nav-container {
+    background: rgba(149, 165, 166,.5);
+    border-left: 0.5rem solid #2C3E50;
+    border-right: 0.5rem solid #2C3E50;
+    border-top: 1rem solid #2C3E50;
+    border-bottom: 0.5rem solid #2C3E50;
+  }
+
+  .banner-container {
+    .Landing_Card {
+      padding-top:1rem;
+      border-bottom: 1rem solid #2C3E50;
+      .Landing_Card_Img_Box {
+        margin: 1rem auto;
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: solid 1px #f2f2f2;
+        box-shadow: 1px 1px 1px #f2f2f2;
+      }
+      .Banner_Ul {
+        list-style-type: none;
+        text-align: right;
+      }
+      .Banner_Ul > li {
+        display: inline;
+        cursor: pointer;
+      }
+    } 
+  }
+  .Front_End_row {
+    border-bottom: 0.5rem solid #2C3E50;
+    border-top: 0.5rem solid #2C3E50;
+    .Front_End_h5 {
+      position: absolute;
+      z-index: 10;
+      left: 50%;
+      transform: translate(-50%, -40%);
+      background: rgba(243, 156, 18) ;
+      border: 0.3rem solid #2C3E50;
+      padding: 0.5em 1em;
+      border-radius: 2rem;
+      font-weight: bold;
+      // .Web_tech_sm_col {
+      //   border-bottom: 0.2rem solid #2C3E50;
+      // }
+      .Front_End_ul {
+        border-left: 1px solid white;
+        padding: 0 0.5rem;
+        li {
+          list-style-type: none;  
+        }
+      } 
+      .Front_End_ul_side {
+        border-left: 1px solid white;
+        padding: 0 0.5rem;
+        list-style-type: none;
+      }
+      .Front_End_Web_svg {
+        width: 50%;
+      }
+    }
+  }
+
+  .Back_End_row {
+    border-bottom: 0.5rem solid #2C3E50;
+    border-top: 0.5rem solid #2C3E50;
+    .Back_End_h5 {
+      position: absolute;
+      z-index: 10;
+      left: 50%;
+      transform: translate(-50%, -40%);
+      background: rgba(243, 156, 18) ;
+      border: 0.3rem solid #2C3E50;
+      padding: 0.5em 1em;
+      border-radius: 2rem;
+      font-weight: bold;
+    }
+    .Back_End_Node {
+      border-right: 1px solid #2C3E50;
+      .Backend_embed {
+        border-bottom: 3px solid rgba(243, 156, 18);
+      }
+    }
+    .Back_End_ul {
+      list-style-type: none;
+      text-align: left;
+      width: 50%;
+      margin: 0 25% 5% 25%;
+      padding:  0 0.5rem;
+      border-left: 1px solid #f2f2f2;
+    }
+    .Backend_embed {
+      border-bottom: 3px solid rgba(243, 156, 18);
+    }
+  }
+   
+  
+  .Server_row  {
+    border-top:1px solid #f2f2f2;
+    padding-top: 2rem;
+    border-bottom: 0.5rem solid #2C3E50;
+    h5 {
+      position: absolute;
+      z-index: 10;
+      left: 50%;
+      transform: translate(-50%, -40%);
+      background: rgba(243, 156, 18) ;
+      border: 0.3rem solid #2C3E50;
+      padding: 0.5em 1em;
+      border-radius: 2rem;
+      font-weight: bold;
+    }
+    .web_svg {
+      width: 50%;
+    }
+    .server_ul {
+      list-style-type: none;
+      text-align: left;
+      width: 50%;
+      margin: 0 25% 5% 25%;
+      padding:  0 0.5rem;
+      border-left: 1px solid #f2f2f2;
+    }
+  }
+
+  .border-dashed {
+    border: 1px solid #f2f2f2
+  }
+  .box-background {
+    background: $primary_light_grey ;
+    border: 0.5rem solid #2C3E50;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .Front_End_Web_svg {
+    width: 40%;
+    margin: 5% 30%;
+  }
+  .Front_End_ul, .Front_End_ul_side , .Back_End_ul {
+    border-left: none;
+  }
+
+  .Front_End_ul_side > li, .Back_End_ul {
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+    width: 70%;
+    margin: 2% 15%;
+  }
+
+  .Front_End_ul > li {
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+    width: 30%;
+    margin: 2% 35%;
+  }
+  .Front_End_Web_h5 {
+    text-align: center;
+  }
+
+  .Web_tech_sm_col {
+    border-bottom: 0.2rem solid #2C3E50;
+  }
+  .border-dashed {
+    border: none;
+  }
+  .Banner_Ul {
+    text-align: center;
+  }
+  .Banner_Ul > li > a> img {
+    width: 45px!important;
+  }
+}

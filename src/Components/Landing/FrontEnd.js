@@ -2,7 +2,9 @@ import React from 'react';
 
 const FrontEnd = () => (
   <div className='row Front_End_row text-white m-0'>
-    <h5 className='Front_End_h5'>FRONT END</h5>
+    <div className="col-md-12">
+      <h5 className='Front_End_h5'>FRONT END</h5>
+    </div>
 
     <div className='col-md-7 col-xs-12 box-background'>
       <div className='row'>

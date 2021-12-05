@@ -1,9 +1,9 @@
 import React from 'react';
 
 const BackEnd = () => (
-  <div className='row Front_End_row text-white m-0 '>
+  <div className='row Back_End_row text-white m-0 '>
     <div className='col-12 box-background'>
-      <h5 className='Front_End_h5'>BACK END</h5>
+      <h5 className='Back_End_h5'>BACK END</h5>
       <div className='row '>
         <div className='col-md-6 col-xs-12 text-center Back_End_Node'>
           <embed
