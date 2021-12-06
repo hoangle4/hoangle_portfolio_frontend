@@ -11,6 +11,7 @@
     "sass": "^1.44.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2"
   },
@@ -18,7 +19,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "npm run build && next export -o _static",
+    "lint": "eslint --fix --ext .js,.jsx,.es6 ./src ./public ./pages"
   },
   "eslintConfig": {
     "extends": "react-app"
