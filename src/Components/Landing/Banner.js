@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+// import Link from 'next/link'
 const Banner = () => {
   return (
     <div className='banner-container'>
@@ -22,33 +22,29 @@ const Banner = () => {
               </small>
             </span>
           </h5>
-          <ul className='Banner_Ul p-0'>
-            <li ata-toggle='tooltip' data-placement='top' title='View Github'>
-              <a href='https://github.com/hoangle4' target='_blank' rel="noreferrer">
-                <img
-                  height='25px'
-                  width='25px'
-                  src='/svg/github.svg'
-                  type='image/svg+xml'
-                  className='mr-2'
-                />
-              </a>
-            </li>
-            <li ata-toggle='tooltip' data-placement='top' title='View LinkedIn'>
-              <a
-                href='https://www.linkedin.com/in/hoang-le-20b79a177/'
-                target='_blank' rel="noreferrer"
-              >
-                <img
-                  height='25px'
-                  width='25px'
-                  src='/svg/linkedIn.svg'
-                  type='image/svg+xml'
-                  className='mr-2'
-                />
-              </a>
-            </li>
-            <li data-toggle='tooltip' data-placement='top' title='View Resume'>
+          <div className='social-media-links p-0'>
+            <a href='https://github.com/hoangle4' target='_blank' rel="noreferrer">
+              <img
+                height='25px'
+                width='25px'
+                src='/svg/github.svg'
+                type='image/svg+xml'
+                className='mr-2'
+              />
+            </a>
+            <a
+              href='https://www.linkedin.com/in/hoang-le-20b79a177/'
+              target='_blank' rel="noreferrer"
+            >
+              <img
+                height='25px'
+                width='25px'
+                src='/svg/linkedIn.svg'
+                type='image/svg+xml'
+                className='mr-2'
+              />
+            </a>
+            {/* <li data-toggle='tooltip' data-placement='top' title='View Resume'>
               <Link href='/resume'>
                 <img
                   height='25px'
@@ -58,8 +54,8 @@ const Banner = () => {
                   className='mr-2'
                 />
               </Link>
-            </li>
-          </ul>
+            </li> */}
+          </div>
         </div>
       </div>
     </div>
