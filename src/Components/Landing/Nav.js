@@ -1,6 +1,5 @@
 import React from 'react'
 // import Link from 'next/link'
-import Image from 'next/image'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 // import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -13,7 +12,7 @@ const MainNav = () => (
   <Navbar bg="dark-grey" expand={false}>
     <Container fluid>
       <Navbar.Brand href="/">
-        <Image width="50px" height="50px" src="/icons/code-square.svg" alt="" />
+        <img width="50px" height="50px" src="/icons/code-square.svg" alt="" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="offcanvasNavbar" />
       <Navbar.Offcanvas

@@ -1,12 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 const Banner = () => {
   return (
     <div className='banner-container'>
       <div className='Landing_Card box-background'>
         <div className='card-img justify-content-center text-center Landing_Card_Img_Box'>
-          <Image layout="responsive"
+          <img
             height='200px'
             width='175px'
             src='/images/avatar.jpg'
@@ -26,7 +25,7 @@ const Banner = () => {
           <ul className='Banner_Ul p-0'>
             <li ata-toggle='tooltip' data-placement='top' title='View Github'>
               <a href='https://github.com/hoangle4' target='_blank' rel="noreferrer">
-                <Image
+                <img
                   height='25px'
                   width='25px'
                   src='/svg/github.svg'
@@ -40,7 +39,7 @@ const Banner = () => {
                 href='https://www.linkedin.com/in/hoang-le-20b79a177/'
                 target='_blank' rel="noreferrer"
               >
-                <Image
+                <img
                   height='25px'
                   width='25px'
                   src='/svg/linkedIn.svg'
@@ -51,7 +50,7 @@ const Banner = () => {
             </li>
             <li data-toggle='tooltip' data-placement='top' title='View Resume'>
               <Link href='/resume'>
-                <Image
+                <img
                   height='25px'
                   width='25px'
                   src='/svg/resume.svg'
