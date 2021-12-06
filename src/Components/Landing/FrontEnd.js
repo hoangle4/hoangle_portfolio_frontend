@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const FrontEnd = () => (
   <div className='row Front_End_row text-white m-0'>
@@ -10,7 +10,7 @@ const FrontEnd = () => (
       <div className='row'>
         <div className='col-12 text-center '>
           <embed
-            style={{ width: '250px' }}
+            style={{ width :'250px' }}
             type='image/svg+xml'
             src='./svg/web_tech.svg'
           />
@@ -19,7 +19,7 @@ const FrontEnd = () => (
         <div className='col-md-3 col-xs-6 Web_tech_sm_col'>
           <embed
             className='Front_End_Web_svg'
-            style={{ color: 'black' }}
+            style={{ color :'black' }}
             type='image/svg+xml'
             src='./svg/html.svg'
           />
@@ -33,7 +33,7 @@ const FrontEnd = () => (
         <div className='col-md-3 col-xs-6 Web_tech_sm_col'>
           <embed
             className='Front_End_Web_svg'
-            style={{ color: 'black' }}
+            style={{ color :'black' }}
             type='image/svg+xml'
             src='./svg/css.svg'
           />
@@ -48,7 +48,7 @@ const FrontEnd = () => (
         <div className='col-md-3 col-xs-6 Web_tech_sm_col'>
           <embed
             className='Front_End_Web_svg'
-            style={{ color: 'black' }}
+            style={{ color :'black' }}
             type='image/svg+xml'
             src='./svg/javascript.svg'
           />
@@ -63,7 +63,7 @@ const FrontEnd = () => (
         <div className='col-md-3 col-xs-6 '>
           <embed
             className='Front_End_Web_svg'
-            style={{ color: 'black' }}
+            style={{ color :'black' }}
             type='image/svg+xml'
             src='./svg/typescript.svg'
           />
@@ -75,10 +75,10 @@ const FrontEnd = () => (
       </div>
     </div>
     <div className='col-md-5 col-xs-12 pt-5 pt-2 box-background Mobile_Desktop_Col'>
-      <div style={{ borderBottom: '0.5rem solid #2C3E50' }} className='row'>
+      <div style={{ borderBottom :'0.5rem solid #2C3E50' }} className='row'>
         <div className='col-6 '>
           <embed
-            style={{ width: '100%' }}
+            style={{ width :'100%' }}
             type='image/svg+xml'
             src='./svg/mobile_dev.svg'
           />
@@ -93,10 +93,10 @@ const FrontEnd = () => (
           </ul>
         </div>
       </div>
-      <div className='row' style={{ borderTop: '0.5rem solid #2C3E50' }}>
+      <div className='row' style={{ borderTop :'0.5rem solid #2C3E50' }}>
         <div className='col-6 '>
           <embed
-            style={{ width: '100%' }}
+            style={{ width :'100%' }}
             type='image/svg+xml'
             src='./svg/desktop_dev.svg'
           />
@@ -110,6 +110,6 @@ const FrontEnd = () => (
       </div>
     </div>
   </div>
-);
+)
 
-export default FrontEnd;
+export default FrontEnd

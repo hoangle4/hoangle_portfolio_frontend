@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const BackEnd = () => (
   <div className='row Back_End_row text-white m-0 '>
@@ -7,7 +7,7 @@ const BackEnd = () => (
       <div className='row '>
         <div className='col-md-6 col-xs-12 text-center Back_End_Node'>
           <embed
-            style={{ width: '200px' }}
+            style={{ width :'200px' }}
             className='Backend_embed'
             type='image/svg+xml'
             src='./svg/node.svg'
@@ -24,7 +24,7 @@ const BackEnd = () => (
         </div>
         <div className='col-md-6 col-xs-12 text-center'>
           <embed
-            style={{ width: '200px' }}
+            style={{ width :'200px' }}
             className='Backend_embed'
             type='image/svg+xml'
             src='./svg/php.svg'
@@ -36,6 +36,6 @@ const BackEnd = () => (
       </div>
     </div>
   </div>
-);
+)
 
-export default BackEnd;
+export default BackEnd

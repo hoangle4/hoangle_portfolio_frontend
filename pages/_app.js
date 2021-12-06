@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/globals.scss'
 
 import Nav from '../src/Components/Landing/Nav'

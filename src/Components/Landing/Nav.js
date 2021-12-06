@@ -1,14 +1,14 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Container from 'react-bootstrap/Container';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import FormControl from 'react-bootstrap/FormControl';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+import React from 'react'
+// import Link from 'next/link'
+import Image from 'next/image'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+// import NavDropdown from 'react-bootstrap/NavDropdown'
+import Container from 'react-bootstrap/Container'
+import Offcanvas from 'react-bootstrap/Offcanvas'
+// import FormControl from 'react-bootstrap/FormControl'
+// import Form from 'react-bootstrap/Form'
+// import Button from 'react-bootstrap/Button'
 const MainNav = () => (
   <Navbar bg="dark-grey" expand={false}>
     <Container fluid>
@@ -50,6 +50,6 @@ const MainNav = () => (
       </Navbar.Offcanvas>
     </Container>
   </Navbar>
-);
+)
 
-export default MainNav;
+export default MainNav

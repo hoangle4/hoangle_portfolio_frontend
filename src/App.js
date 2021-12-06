@@ -1,13 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-import { Provider } from './context';
-import SignUp from './Components/Signup';
-import Login from './Components/Login';
-import Landing from './Components/Landing';
-import Nav from './Components/Landing/Nav';
-import Resume from './Components/Resume';
-import Calculator from './Components/Calculator';
+import { Provider } from './context'
+// import SignUp from './Components/Signup'
+// import Login from './Components/Login'
+import Landing from './Components/Landing'
+import Nav from './Components/Landing/Nav'
+// import Resume from './Components/Resume'
+// import Calculator from './Components/Calculator'
 const App = () => {
   return (
     <Provider>
@@ -17,7 +17,7 @@ const App = () => {
             <Nav />
             <Switch>
               <Route exact path='/' component={Landing} />
-              {/*<Route exact path='/resume' component={Resume} />
+              {/* <Route exact path='/resume' component={Resume} />
 		<Route exact path='/calculator' component={Calculator} />
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/myaccount" component={MyAccount} />
@@ -29,7 +29,7 @@ const App = () => {
         </div>
       </Router>
     </Provider>
-  );
-};
+  )
+}
 
-export default App;
+export default App

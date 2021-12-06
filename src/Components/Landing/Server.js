@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Server = () => {
   return (
@@ -6,7 +6,8 @@ const Server = () => {
       <div className='col-md-4 col-xs-12 text-center'>
         <embed
           className='web_svg'
-          style={{ color: 'black', width: '150px' }}
+          style={{ color :'black',
+            width :'150px' }}
           type='image/svg+xml'
           src='./svg/database.svg'
         />
@@ -21,7 +22,8 @@ const Server = () => {
       <div className='col-md-4 col-xs-12 text-center'>
         <embed
           className='web_svg'
-          style={{ color: 'black', width: '150px' }}
+          style={{ color :'black',
+            width :'150px' }}
           type='image/svg+xml'
           src='./svg/server.svg'
         />
@@ -36,7 +38,8 @@ const Server = () => {
       <div className='col-md-4 col-xs-12 text-center'>
         <embed
           className='web_svg'
-          style={{ color: 'black', width: '150px' }}
+          style={{ color :'black',
+            width :'150px' }}
           type='image/svg+xml'
           src='./svg/os.svg'
         />
@@ -48,7 +51,7 @@ const Server = () => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Server;
+export default Server

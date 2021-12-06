@@ -1,12 +1,15 @@
-import React, { Fragment, useEffect } from "react";
-import spinner from "./spinner.gif";
+import React, { Fragment } from "react"
+import spinner from "./spinner.gif"
 
 const Spinner = ({ onLoad }) => {
   return (
     <Fragment>
-      <img src={spinner} onLoad={onLoad} style={{ display: "none" }} />
+      <img src={spinner} onLoad={onLoad} style={{ display :"none" }} />
       <div
-        style={{ width: "75px", margin: "auto", display: "block", zIndex: 99 }}
+        style={{ width :"75px",
+          margin :"auto",
+          display :"block",
+          zIndex :99 }}
         className="lds-svg ng-scope"
       >
         <svg
@@ -148,6 +151,6 @@ const Spinner = ({ onLoad }) => {
         </svg>
       </div>
     </Fragment>
-  );
-};
-export default Spinner;
+  )
+}
+export default Spinner

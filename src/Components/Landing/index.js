@@ -1,11 +1,10 @@
-import React, { Fragment } from 'react';
-import Nav from './Nav';
-import Banner from './Banner';
-import FrontEnd from './FrontEnd';
-import BackEnd from './BackEnd';
-import Server from './Server';
+import React, { Fragment } from 'react'
+import Banner from './Banner'
+import FrontEnd from './FrontEnd'
+import BackEnd from './BackEnd'
+import Server from './Server'
 
-import './Landing.css';
+import './Landing.css'
 const Landing = () => {
   return (
     <Fragment>
@@ -19,7 +18,7 @@ const Landing = () => {
       {/* </div>
     </div> */}
     </Fragment>
-  );
-};
+  )
+}
 
-export default Landing;
+export default Landing

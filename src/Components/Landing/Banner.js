@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link';
+import Link from 'next/link'
 const Banner = () => {
   return (
     <div className='banner-container'>
       <div className='Landing_Card box-background'>
         <div className='card-img justify-content-center text-center Landing_Card_Img_Box'>
           <Image layout="responsive"
-            height='200px' 
+            height='200px'
             width='175px'
             src='/images/avatar.jpg'
             alt=''
@@ -18,16 +18,16 @@ const Banner = () => {
             Hoang Le
             <span>
               <br />
-              <small style={{ color: 'rgba(243, 156, 18)' }}>
+              <small style={{ color :'rgba(243, 156, 18)' }}>
                 Full Stack Developer
               </small>
             </span>
           </h5>
           <ul className='Banner_Ul p-0'>
             <li ata-toggle='tooltip' data-placement='top' title='View Github'>
-              <a href='https://github.com/hoangle4' target='_blank'>
+              <a href='https://github.com/hoangle4' target='_blank' rel="noreferrer">
                 <Image
-                  height='25px' 
+                  height='25px'
                   width='25px'
                   src='/svg/github.svg'
                   type='image/svg+xml'
@@ -38,10 +38,10 @@ const Banner = () => {
             <li ata-toggle='tooltip' data-placement='top' title='View LinkedIn'>
               <a
                 href='https://www.linkedin.com/in/hoang-le-20b79a177/'
-                target='_blank'
+                target='_blank' rel="noreferrer"
               >
                 <Image
-                  height='25px' 
+                  height='25px'
                   width='25px'
                   src='/svg/linkedIn.svg'
                   type='image/svg+xml'
@@ -51,8 +51,8 @@ const Banner = () => {
             </li>
             <li data-toggle='tooltip' data-placement='top' title='View Resume'>
               <Link href='/resume'>
-                <Image 
-                  height='25px' 
+                <Image
+                  height='25px'
                   width='25px'
                   src='/svg/resume.svg'
                   type='image/svg+xml'
@@ -64,7 +64,7 @@ const Banner = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner
